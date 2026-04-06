@@ -38,6 +38,11 @@ Se encontrar erros de `connection refused` ou falhas de clone, consulte o nosso 
 👉 [**Acesse o TROUBLESHOOTING.md**](./TROUBLESHOOTING.md)
 
 ---
+## 📂 Estrutura do Repositório
+
+* `terraform/`: Contém os manifestos para provisionar as VMs no Proxmox via IaC.
+* `scripts/`: Automações em shell para agilizar a configuração dos nós.
+* `docs/`: Documentação técnica e diagramas de arquitetura.
 
 ## Como Executar
 
