@@ -1,0 +1,9 @@
+proxmox_endpoint    = "https://seu-ip:8006/"
+proxmox_username    = "root@pam"
+proxmox_password    = "sua-senha-secreta"
+proxmox_node        = "pve"
+template_vm_id      = 9000
+cloudinit_datastore = "local-zfs"
+master_ip           = "192.168.0.131"
+ssh_public_keys     = ["ssh-ed25519 AAAA..."]
+k3s_token           = "token-gerado-no-master"
