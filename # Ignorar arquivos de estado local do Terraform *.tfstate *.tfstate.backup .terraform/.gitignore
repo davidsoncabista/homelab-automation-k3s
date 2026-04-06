@@ -1,0 +1,6 @@
+# Ignorar arquivos de estado local do Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+*.tfvars
+*.pkr.hcl # Caso use Packer no futuro
