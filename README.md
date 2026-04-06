@@ -28,6 +28,16 @@ Durante o desenvolvimento deste projeto, identificamos comportamentos específic
 * Ajuste do `file_format = "raw"` para compatibilidade nativa com datasets ZFS, reduzindo o overhead de emulação.
 
 ---
+---
+
+## 🛠️ Guia de Solução de Problemas (Troubleshooting)
+Durante a jornada de automação, documentamos cada erro de percurso — desde conflitos de IDs órfãos no Proxmox até crises de identidade entre os serviços Master e Worker. 
+
+Se encontrar erros de `connection refused` ou falhas de clone, consulte o nosso guia detalhado:
+
+👉 [**Acesse o TROUBLESHOOTING.md**](./TROUBLESHOOTING.md)
+
+---
 
 ## Como Executar
 
